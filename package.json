@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "fix": "fixjsstyle --flagfile .closurelinter ./jquery.inputenhancer.js",
+    "lint": "gjslint --flagfile .closurelinter ./jquery.inputenhancer.js",
+    "minify": "uglifyjs ./jquery.inputenhancer.js --comments -m -c 'drop_console=true' -d 'DEBUG=void 0' -o ./jquery.inputenhancer.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.14"
+  }
+}
