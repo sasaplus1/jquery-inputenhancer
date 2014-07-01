@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	font-family: Helvetica, sans-serif;
+	margin: 5em 0;
+}
+
+#main h1 {
+	font-weight: lighter;
+	text-align: center;
+}
+
+#main p {
+	text-align: center;
+}
+
+#main small {
+	color: #ccc;
+	font-size: 60%;
+}
+
+#main .input-area {
+	margin: 5em auto;
+	width: 600px;
+}
+
+#main .input-area:first-child {
+	margin-top: 10em;
+}
+
+#main .input-area input {
+	display: block;
+	margin: auto;
+	width: 20em;
+}
+
+#main .input-area code {
+	display: block;
+	font-family: menlo, inconsolata, monaco, monospace;
+	font-size: 60%;
+	margin: 1em auto;
+	width: 10em;
+}
+
+#main .input-area ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 10em;
+}
+
+#main .input-area li {
+	font-family: menlo, inconsolata, monaco, monospace;
+	font-size: 60%;
+	padding: 0.5em 0.2em;
+	text-align: center;
+}
+
+#main .input-area .list-default {
+	background-color: #fff;
+}
+
+#main .input-area .list-input {
+	background-color: #ccf;
+}
+
+#main .input-area .list-max-length {
+	background-color: #cfc;
+}
+
+#main .input-area .list-over-max-length {
+	background-color: #fcc;
+}
